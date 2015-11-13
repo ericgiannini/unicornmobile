@@ -1,0 +1,16 @@
+body {
+     background-image: url('unicorn.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 100%;
+}
+
+form {
+   background-color: white;
+   padding: 20px;
+   border: 1px solid black;
+}
+
+input, textarea {
+    display: block;
+}
