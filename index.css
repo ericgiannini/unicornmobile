@@ -18,3 +18,7 @@ form {
 input, textarea {
     display: block;
 }
+
+textarea {
+    width: 140px;
+}
