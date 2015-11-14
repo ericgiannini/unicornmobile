@@ -1,4 +1,5 @@
 body {
+
      background-image: url('unicorn.jpg');
      background-size: cover;
      background-repeat: no-repeat;
@@ -6,19 +7,22 @@ body {
 }
 
 form {
-   background-color: white;
-   padding: 20px;
-   border: 1px solid black;
-   position: fixed;
-   top: 80%;
-   left: 50%;
-   transform: translate(-50%, -80%);
+
+     background-color: white;
+     padding: 20px;
+     border: 1px solid black;
+     position: fixed;
+     top: 80%;
+     left: 50%;
+     transform: translate(-50%, -80%);
 }
 
 input, textarea {
-    display: block;
+
+     display: block;
 }
 
 textarea {
-    width: 140px;
+  
+     width: 140px;
 }
