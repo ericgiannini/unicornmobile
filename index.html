@@ -3,12 +3,15 @@
 <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-  <form method="POST" action="mailto:eric.giannini@fulbrightmail.org">
-     <input type="text" name="name" placeholder="Name" />
-     <input type="text" name="email" placeholder="Email" />
-     <input type="text" name="subject" placeholder="Subject" />
-     <textarea rows="5" placeholder="Message"></textarea>
-     <input type="submit" value="Submit">
- </form>
+
+<form name="contactform" method="post" action="mail.php">
+  <input  type="text" name="first_name" placeholder="First Name">
+  <input  type="text" name="last_name" placeholder="Last Name">
+  <input  type="text" name="email" placeholder="Email">
+  <input  type="text" name="telephone" placeholder="Telephone">
+  <textarea  name="questions" placeholder="Questions" maxlength="1000" cols="25" rows="6"></textarea>
+  <input type="submit" value="Submit">
+</form>
+
 </body>
 </html>
