@@ -15,14 +15,17 @@ form {
      top: 80%;
      left: 50%;
      transform: translate(-50%, -80%);
+     float: left;
 }
 
 input, textarea {
 
      display: block;
+
 }
 
 textarea {
-  
+
      width: 140px;
+     float: right;
 }
