@@ -3,8 +3,11 @@
 <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
+  
+  <?php include_once("analyticstracking.php") ?>
 
 <form name="contactform" method="post" action="mail.php">
+
   <textarea  name="questions" placeholder="Questions" maxlength="1000" cols="25" rows="6"></textarea>
   <input  type="text" name="first_name" placeholder="First Name">
   <input  type="text" name="last_name" placeholder="Last Name">
