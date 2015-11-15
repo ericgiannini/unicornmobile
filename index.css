@@ -29,3 +29,40 @@ textarea {
      width: 140px;
      float: right;
 }
+
+
+#submit {
+
+     padding: 6px 14px 5px !important;
+     font-size: 12px !important;
+     background-color: #5B2A85;
+     font-weight: bold;
+     text-shadow: 1px 1px #5A2632;
+     color: #ffffff;
+     border-radius: 100px;
+     -moz-border-radius: 100px;
+     -webkit-border-radius: 100px;
+     border: 1px solid #5A2632;
+     cursor: pointer;
+     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+     -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+     -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+#submit:active {
+
+     padding: 6px 14px 5px !important;
+     font-size: 12px !important;
+     background-color: #5A2632;
+     font-weight: bold;
+     text-shadow: 1px 1px #5B2A85;
+     color: #ffffff;
+     border-radius: 100px;
+     -moz-border-radius: 100px;
+     -webkit-border-radius: 100px;
+     border: 1px solid #5B2A85;
+     cursor: pointer;
+     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+     -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+     -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
