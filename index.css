@@ -84,3 +84,12 @@ color: #000;
 text-shadow:none;
 border: 1px solid black;
 }
+
+.slide {
+  position: relative;
+}
+.slide .inner {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
