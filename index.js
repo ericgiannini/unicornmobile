@@ -1,5 +1,10 @@
 $(document).ready(function() {
   $('#slidebottom button').click(function() {
-    $(this).next().animate({width: 'toggle'});
+    var $lefty = $(this).next();
+    $lefty.animate({
+      left: parseInt($lefty.css('left'),10) == 0 ?
+        -$lefty.outerWidth() :
+        0
+    });
   });
 });
