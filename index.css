@@ -18,6 +18,19 @@ form {
      float: left;
 }
 
+#textarea-container {
+     float:right;
+}
+#inputs-container {
+     float: left;
+     width: 145px;
+}
+
+input[type=text] {
+     width: 100%;
+}
+
+
 input, textarea {
 
      display: block;
@@ -25,9 +38,8 @@ input, textarea {
 }
 
 textarea {
-
+     height: 100px;
      width: 140px;
-     float: right;
 }
 
 

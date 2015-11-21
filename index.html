@@ -7,14 +7,16 @@
   <?php include_once("analyticstracking.php") ?>
 
 <form name="contactform" method="post" action="mail.php">
-
-  <textarea  name="questions" placeholder="Questions" maxlength="1000" cols="25" rows="6"></textarea>
-  <input  type="text" name="first_name" placeholder="First Name">
-  <input  type="text" name="last_name" placeholder="Last Name">
-  <input  type="text" name="email" placeholder="Email">
-  <input  type="text" name="telephone" placeholder="Telephone">
-  <input  id="submit" type="submit" value="Submit">
-
+  <div id="textarea-container">
+    <textarea  name="questions" placeholder="Questions" maxlength="1000" cols="25" rows="6"></textarea>
+  </div>
+  <div id="inputs-container">
+	  <input  type="text" name="first_name" placeholder="First Name">
+	  <input  type="text" name="last_name" placeholder="Last Name">
+	  <input  type="text" name="email" placeholder="Email">
+	  <input  type="text" name="telephone" placeholder="Telephone">
+	</div > 
+<input  id="submit" type="submit" value="Submit">
 </form>
 
 </body>
