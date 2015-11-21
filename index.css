@@ -91,5 +91,5 @@ border: 1px solid black;
 .slide .inner {
   position: absolute;
   left: 0;
-  bottom: 0;
+  top:20;
 }
