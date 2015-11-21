@@ -2,16 +2,11 @@
 
 if(isset($_POST['email'])) {
 
-
-
     // EDIT THE 2 LINES BELOW AS REQUIRED
 
     $email_to = "eric.giannini@fulbrightmail.org";
 
     $email_subject = "Inquiry into Unicorn Mobility";
-
-
-
 
 
     function died($error) {
@@ -30,8 +25,6 @@ if(isset($_POST['email'])) {
 
     }
 
-
-
     // validation expected data exists
 
     if(!isset($_POST['first_name']) ||
@@ -48,8 +41,6 @@ if(isset($_POST['email'])) {
 
     }
 
-
-
     $first_name = $_POST['first_name']; // required
 
     $last_name = $_POST['last_name']; // required
@@ -59,8 +50,6 @@ if(isset($_POST['email'])) {
     $telephone = $_POST['telephone']; // not required
 
     $questions = $_POST['questions']; // required
-
-
 
     $error_message = "";
 
