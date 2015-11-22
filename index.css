@@ -126,3 +126,7 @@ border: 1px solid black;
     background-color: #5A2632;
     margin-top:10px;
 }
+
+ul {
+    list-style-type: none;
+}
