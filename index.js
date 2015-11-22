@@ -1,10 +1,10 @@
-$(document).ready(function() {
-  $('#slidebottom button').click(function() {
-    var $lefty = $(this).next();
-    $lefty.animate({
-      left: parseInt($lefty.css('left'),10) == 0 ?
-        -$lefty.outerWidth() :
-        0
+$(document).ready(function () {
+
+    $(".slidingDiv").hide();
+    $(".show_hide").show();
+
+    $('.show_hide').click(function () {
+        $(".slidingDiv").toggle("slide");
     });
-  });
+
 });
