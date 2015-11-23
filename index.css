@@ -24,6 +24,11 @@ form {
 #inputs-container {
      float: left;
      width: 145px;
+
+}
+
+#wrapper{
+    width:300px;
 }
 
 input[type=text] {
@@ -122,7 +127,7 @@ border: 1px solid black;
 
 .slidingDiv {
     height:100%;
-    width: 35%;
+    width: 15%;
     background-color: #5A2632;
     margin-top:10px;
 }

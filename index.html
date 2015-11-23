@@ -14,10 +14,12 @@
     <form>
       <input type="text" class="search rounded" id="input" placeholder="Search..." >
     </form>
-    <span class="categories">Categories</span>
-    <ul>
+        <span class="categories">
+          <font color="white">Categorical Options</font>
+        </span>
+      <ul>
           <li id="option1" >
-            <font color="white">This is some text!</font>
+            <font color="white">Option Alpha</font>
           </li>
 
           <li id="option1" font color="white">
@@ -27,13 +29,14 @@
           <li id="option1">
             <font color="white">Option Gamma</font>
           </li>
-    </ul>
+      </ul>
   </div>
 </div>
 
 <button class="show_hide">Options</button>
 
 <form name="contactform" method="post" action="mail.php">
+  <div id="wrapper">
   <div id="textarea-container">
     <textarea  name="questions" placeholder="Questions" maxlength="1000" cols="25" rows="6"></textarea>
   </div>
@@ -43,6 +46,7 @@
 	  <input  type="text" name="email" placeholder="Email">
 	  <input  type="text" name="telephone" placeholder="Telephone">
 	</div >
+</div>
 <input  id="submit" type="submit" value="Submit">
 </form>
 
