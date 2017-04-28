@@ -1,0 +1,25 @@
+{
+  "name": "unicornmobile",
+  "version": "1.0.0",
+  "description": "Unicorn Mobile, LLC., is a software development firm dedicated to building light weight, affordable Minimum Viable Products that speed to market for entrepreneurs, tech enthusiasts, small business owners, or individuals with ground breaking ideas for disruption. Our goal is to create an MVP within less than 7 to 21 days from start to finish on a budget less than $10,000.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ericgiannini@github.com/ericgiannini/unicornmobile.git"
+  },
+  "keywords": [
+    "unicorns"
+  ],
+  "author": "Eric",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericgiannini/unicornmobile/issues"
+  },
+  "homepage": "https://github.com/ericgiannini/unicornmobile#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
