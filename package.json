@@ -21,6 +21,7 @@
   "homepage": "https://github.com/ericgiannini/unicornmobile#readme",
   "dependencies": {
     "body-parser": "^1.17.1",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "nodemon": "^1.11.0"
   }
 }

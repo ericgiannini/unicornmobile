@@ -5,6 +5,7 @@ $(document).ready(function () {
 
     $('.show_hide').click(function () {
         $(".slidingDiv").toggle("slide");
+        $('options-button').hide();
     });
 
 });
